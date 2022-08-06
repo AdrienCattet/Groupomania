@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    max-height: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        flex-flow: column;
+        align-items: center;
+    }
+}

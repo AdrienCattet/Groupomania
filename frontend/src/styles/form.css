@@ -1,0 +1,49 @@
+.form_div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding-top: 10px;
+}
+
+.form_img {
+    width: 80%;
+    max-width: 550px;
+    padding: 0.375rem 0.75rem;
+}
+
+button i {
+    color: white;
+}
+
+.input {
+    text-decoration: none;
+    outline: unset;
+    border: 1px solid #4e5166;
+    border-radius: 0.3rem;
+    width: 80%;
+    padding: 0.375rem 0.75rem;
+    transition: border-color 0.3s ease-out,box-shadow 0.3s ease-out;
+}
+
+.input:focus {
+    border-color: #FFD7D7;
+    box-shadow: 0 0 0 .2rem #FFD7D7;
+}
+
+.file {
+    display: none;
+}
+
+.button {
+    color: white;
+    border-color: transparent;
+    background-color: #FD2D01;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+.button:hover {
+    background-color: #FFD7D7;
+}

@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0%;
+}
+
+ul a {
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 120px;
+}
+
+
+ul a:hover {
+    color: #FD2D01;
+    border-top: 3px solid #FD2D01;
+}

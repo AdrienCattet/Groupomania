@@ -1,0 +1,51 @@
+* {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+
+h1 {
+    font-size:  1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 1.12rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#bloc_page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 500px;
+    padding-top: 50px;
+}
